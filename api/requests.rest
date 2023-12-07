@@ -13,5 +13,13 @@ POST http://localhost:5000/todo/new
 Content-Type: application/json
 
 {
-"text": "Pick up boat"
+"text": "Is it working"
 }
+
+###
+DELETE  http://localhost:5000/todo/delete/6571658989b11191ab2e1789
+
+###
+
+
+PUT http://localhost:5000/todo/complete/6571664089b11191ab2e178c
