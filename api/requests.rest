@@ -1,0 +1,17 @@
+GET http://localhost:5000/todos
+
+###
+POST http://localhost:5000/todo/new
+Content-Type: application/json
+
+{
+  "text": "Is it working"
+}
+
+###
+POST http://localhost:5000/todo/new 
+Content-Type: application/json
+
+{
+"text": "Pick up boat"
+}
